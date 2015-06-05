@@ -13,11 +13,13 @@ Ludi
 `00:01:12`
 Pierre H: So yesterday, during the talk, we did a small tour, but it's not the full range. We ommitted for example Pierre Marchand's fork of Scribus that removes the code that closes paths, for which case true type fonts can become strokes, but it's quite clunky. It only works on Pierre's old computer so it doesn't seem to be the way to go.
 
-general talk until 12:26 then kerfuffle while Lasse shows his experiments around the Bauhaus logo.
-15:24: First description of CPS Cascading Properties Sheet
-until 19:58 
+*General talk until 12:26 then kerfuffle while Lasse shows his experiments around the Bauhaus logo.*
 
-19:58 till 22:07
+`15:24:`
+*First description of CPS Cascading Properties Sheet
+until 19:58 *
+
+`19:58 till 22:07`
 State of standards SVG fonts, etc Hershey, Metafont, 
 
 22:07 CPS questions, always rendering, responsiveness to environments?
