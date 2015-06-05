@@ -20,12 +20,57 @@ Pierre H: So yesterday, during the talk, we did a small tour, but it's not the f
 until 19:58 *
 
 `19:58 till 22:07`
-State of standards SVG fonts, etc Hershey, Metafont, 
+*State of standards SVG fonts, etc Hershey, Metafont,*
 
-22:07 CPS questions, always rendering, responsiveness to environments?
+*22:07 CPS questions, always rendering, responsiveness to environments?*
 
-Chris describes what is accepted into Opentype, SVG glyphs inside Opentype fonts.
-until 23:55
+*Chris describes what is accepted into Opentype, SVG glyphs inside Opentype fonts.
+until 23:55*
+
+
+20 -> 25
+Simon
+There isn't really a standarized stroke based file-format? SVG fonts?
+
+Chris:
+SVG-fonts allowed it in theory but the problem was the strokeswidths were not in the right coordinate-system. You had to have very small stroke width so when it came down to the space where the actual glyphs were drawn you would get consistent result. And SVG-fonts have completely gone away now.
+
+Amelia:
+There's MetaFonts which are used in LaTEX, but there's not, any computers that I know of that will live-render them, there are special processes that convert them to bitmap for their print-layout.
+
+Chris:
+Strokefonts are used on (pen-)plotters and their used in Printed Circuit Board (PCB) manufacturing.
+
+Simon:
+But you can't exchange the fonts; they are all propietary. PCB-design is actually what made me interested in this kind of stuff. Because I have a stroke-font and I want to release it or actually use it...
+
+Chris:
+But there is no format for you to...
+
+SImon:
+I have a patent / (pattern ?) dictionary right now.
+
+Gijs:
+I like the idea of live-rendering as the font becomes an object that can also respond to it's environment. Is that something that would be possible?
+
+Chris:
+It's where the comment 'lets not call this a font' helps.  You know about SVG and OpenType? Their idea of having SVG-glyphs inside an OpenType font. In TrueType you had quadratic bezier-curves, in OpenType thay also added cubic bezier's like in Postscript Type 1 fonts, so that were the two types but you could only have the one or the other. But since the've added a bunch of other types of outlines, including SVG. The SVG type supports multiple colors, it can bring in colors from the environment,  it can be animated. And all the people who where doing like HarfBuzz said you can't have animated glyphs: a glyph is rendered once as a bitmap at a certain size and then it's cached; their entire architecture depends on it not being animated. Then I pointed out Google also added something to OpenType which has PNG in it for colored bitmap fonts, and there's animated PNG which actually looks the same so people could put those in so those would be animated and their head just exploded. You're not allowed to that ever for fonts.
+
+Amelia:
+But the problem is there is such a strong user use because of emoticons and icons. On iOS-devices they are currently - I think - still implemented as SVG-fonts. Everywhere else they are implemented as little PNG-images the browser just dumps in.
+
+Chris:
+Actually Apple have their own format, which is totally undocumented, but used bitmap images they had all the different sizes that you would want in 1-pixel increments for a range of sizes. And three or four sizes reverse-engineered them and started producing their own, but being Apple they did not standardize it, because then they had to standardize it.
+
+Pierre:
+Yes, it's true, if we don't call it a font we gain a lot of freedom, but still we need some connection to the typography stack.
+
+Gijs:
+That's where an idea like Polyfills are interesting. If the technology is missing you just implement you just implement it yourself.
+
+25:51
+
+
 
 26:00 
 Apple's custom font format example for iOS by Chris and Amelia
