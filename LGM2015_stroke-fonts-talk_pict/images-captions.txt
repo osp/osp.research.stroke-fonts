@@ -1,0 +1,26 @@
+
+speedball.png
+*Speedball Text Book*, Ross F. George, 1957
+
+
+m-stroke.png
+from *Le trait*, Gerrit Nordzij,  Ypsilon - 2010, 
+
+din-stroke.png
+Extract of the current DIN specifaction - bought at DIN institute.
+
+hershey2.png
+Hershey font family preview with Inkscape extension.
+
+lessons-learned-from-metafont.png
+*Lessons Learned from Metafont*, Donald E. Knuth - Visible Language, 1985
+
+variex-combo.png
+Emigre's Variex specimen
+
+
+
+
+
+
+
