@@ -1,13 +1,14 @@
 STROKE FONTS BOF discussion - Toronto, LGM 2015, Friday 1 May 2015 - 12:20 → 14:00 - transcription.
+
 With :
-amelia.bellamy.royds@gmail.com
-chris@w3.org
-lasse@graphicore.de
-simon@budig.de
-Colm
-Gijs
-Pierre
-Ludi
+Amelia Bellamy-Royds <amelia.bellamy.royds@gmail.com>
+Chris Lilley <chris@w3.org>
+Lasse Fister <lasse@graphicore.de>
+Simon Budig <simon@budig.de>
+Colm O'Neill <mail@colm.be>
+Gijs de Heij <gijs@de-heij.com>
+Pierre Huyghebaert <pierre@speculoos.com>
+Ludivine Loiseau <ludi.loiseau@gmail.com>
 
 
 `00:01:12`
