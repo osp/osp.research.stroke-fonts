@@ -1,6 +1,13 @@
 # Researching how stroke fonts could work
 
-An attempt to find ways of using stroke fonts in design workflows 
+### An attempt to find ways of using stroke fonts in design workflows 
+
+this repository is a mirror of http://git.constantvzw.org/?p=osp.research.stroke-fonts.git;a=tree and serves the W3c community group called Stroke Fonts https://www.w3.org/community/stroke-fonts/.
+Head to the groups community page for the latest + ways of getting in touch.
+
+Here is the text we wrote when proposing the group:
+
+---
 
 A stroked font is based on the idea of describing a collection of glyphs by their center line or the movement of a pen rather than their outlines. The center line, or skeleton, would then be styled either from inside the font, either from any software that acts downstream on the text, according to parameters that are yet to be defined. But might be based on the concept of an object following a path. 
 
