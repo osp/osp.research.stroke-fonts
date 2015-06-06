@@ -1,8 +1,7 @@
 ## STROKE FONTS Birds Of a Feather discussion transcription
 ### LGM Toronto 2015, Friday 1 May 2015 - 12:20 → 14:00
 
-https://github.com/osp/osp.research.stroke-fonts/edit/master/LGM-BOF_transcription.md#With :
-
+With :
 - Amelia Bellamy-Royds <amelia.bellamy.royds@gmail.com>
 - Chris Lilley <chris@w3.org>
 - Lasse Fister <lasse@graphicore.de>
