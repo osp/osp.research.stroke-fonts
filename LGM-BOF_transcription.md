@@ -1,17 +1,27 @@
-STROKE FONTS BOF discussion - Toronto, LGM 2015, Friday 1 May 2015 - 12:20 → 14:00 - transcription.
+## STROKE FONTS Birds Of a Feather discussion transcription
+### LGM Toronto 2015, Friday 1 May 2015 - 12:20 → 14:00
 
 With :
+
 Amelia Bellamy-Royds <amelia.bellamy.royds@gmail.com>
+
 Chris Lilley <chris@w3.org>
+
 Lasse Fister <lasse@graphicore.de>
+
 Simon Budig <simon@budig.de>
+
 Colm O'Neill <mail@colm.be>
+
 Gijs de Heij <gijs@de-heij.com>
+
 Pierre Huyghebaert <pierre@speculoos.com>
+
 Ludivine Loiseau <ludi.loiseau@gmail.com>
 
 
 `00:01:12`
+
 Pierre H: So yesterday, during the talk, we did a small tour, but it's not the full range. We ommitted for example Pierre Marchand's fork of Scribus that removes the code that closes paths, for which case true type fonts can become strokes, but it's quite clunky. It only works on Pierre's old computer so it doesn't seem to be the way to go.
 
 *General talk until 12:26 then kerfuffle while Lasse shows his experiments around the Bauhaus logo.*
